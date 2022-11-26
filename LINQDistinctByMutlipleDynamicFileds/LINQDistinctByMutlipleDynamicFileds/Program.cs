@@ -1,4 +1,4 @@
-﻿using LINQDistinctByMutlipleDynamicFileds;
+﻿using LINQDistinctByMutlipleDynamicFields;
 
 Console.WriteLine("LINQDistinctByMutlipleDynamicFields");
 

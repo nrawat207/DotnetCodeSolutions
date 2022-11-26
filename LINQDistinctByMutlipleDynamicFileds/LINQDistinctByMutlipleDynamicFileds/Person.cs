@@ -1,4 +1,4 @@
-﻿namespace LINQDistinctByMutlipleDynamicFileds
+﻿namespace LINQDistinctByMutlipleDynamicFields
 {
     internal class Person
     {

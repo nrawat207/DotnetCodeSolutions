@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace LINQDistinctByMutlipleDynamicFileds
+namespace LINQDistinctByMutlipleDynamicFields
 {
     public class PropertyComparer<T> : IEqualityComparer<T>
     {
@@ -32,7 +32,7 @@ namespace LINQDistinctByMutlipleDynamicFileds
                 //get the property value of the comparison property of obj1 and of obj1
                 object obj1Value = propertyInfo.GetValue(obj1);
                 object obj2Value = propertyInfo.GetValue(obj2);
-                //if the xValue is null then we consider them equal if and only if yValue is null
+                //if the obj1Value is null then we consider them equal if and only if obj2Value is null
                 if (obj1Value == null)
                     isEqual = (obj1Value == null);
                 else
